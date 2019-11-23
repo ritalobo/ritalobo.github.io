@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+body{
+  font-family: 'Advent Pro', sans-serif;
+
+	background-color: #F4F4F4;
+	padding:0;
+	margin:0;
+}
+
+
+header  {
+	background-image: url(img/img3.jpg);
+	width:100%;
+	height:700px;
+	position: relative;
+	background-size:  cover;
+}
+
+header img {
+	position: absolute;
+	top: 20%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+  height: 25%;
+}
+
+header h4{
+  position: absolute;
+  margin-left: 280px;
+  margin-right: 280px;
+	font-size:30px;
+	color: rgb(7, 7, 7);
+  padding: 0;
+  margin-top: 300px;
+  text-align: center;
+}
+
+header p{
+  position: absolute;
+  margin-left: 280px;
+  margin-right: 280px;
+  font-size:30px;
+  color: rgb(207, 207, 207);
+  padding: 0;
+  margin-top: 355px;
+  text-align: center;
+
+
+}
+
+#encabezado a{
+  position: absolute;
+	top: 70%;
+	left: 350px;
+	transform: translate(-50%,-50%);
+  font-weight: bold;
+}
+
+
+.btn-group{
+  position: absolute;
+	top: 55%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+
+#encabezado h6{
+  display: inline-block;
+  padding: 6px;
+  position: relative;
+	top: 420px;
+	left: 325px;
+	transform: translate(-50%,-50%);
+  font-size: 20px;
+  color: rgba(207, 207, 207);
+}
+
+h5{
+  position: absolute;
+  margin-left: 280px;
+  margin-right: 280px;
+  font-size:20px;
+  color: rgb(207, 207, 207);
+  padding: 0;
+  margin-top: 355px;
+  text-align: center;
+}
+
+.form-check{
+  top: 400px;
+  left: 325px;
+  font-size: 25px;
+  color: rgba(90, 90, 90);
+}
+
+.botao{
+  margin-top: 70px;
+}
+
+#resposta{
+  position: absolute;
+	top: 57%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+  width: 30%;
+  height: auto;
+}
+
+.quadrado{
+  display: inline-block;
+  position: relative;
+	top: 57%;
+	left: 28%;
+	transform: translate(-50%,-50%);
+  width: 100px;
+  height: auto;
+  margin-top: 400px;
+  margin-left: 10px;
+}
