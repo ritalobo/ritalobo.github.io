@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body{
+  background-color: rgba(203, 195, 190, 1);
+}
+
+.cabeça{
+  height: 100px;
+  background-color: rgba(144, 59, 9, 0.8);
+}
+
+.cabeça img{
+  height: 90px;
+  width: auto;
+  margin-top: 18px;
+
+}
+.rosa{
+  width: auto;
+  height: 442px;
+}
+.rosa img{
+  margin-left: -15px;
+  padding: 0px;
+  width: auto;
+  height: 100%;
+}
+
+.vermelho{
+height: 1000px;
+background-color: rgba(203, 195, 190, 1);
+
+}
+
+.vermelho ul{
+   list-style-type: none;
+   margin-top: 100px;
+}
+
+.vermelho li{
+padding: 10px;
+font-size: 18px;
+margin-top: 20px;
+}
+
+.oranje img{
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 100%;
+  width: auto;
+
+}
+
+.oranje{
+
+  height: 300px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+
+.azul{
+
+  height: 300px;
+  width: 300px;
+  background-color: rgba(250, 250, 250, 1);
+}
+.azul img{
+  height: 230px;
+  width: 230px;
+}
+
+.azul p{
+  margin-bottom: -2px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.green p{
+  font-family: 'Alatsi', sans-serif;
+  color: rgba(92, 0, 0, 1);
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.green{
+  height: 50px;
+  background-color: rgba(214, 0, 0, 1);
+}
