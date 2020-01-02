@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/*color:
+azul: rgba(4, 48, 220, 1);
+cinza: rrgba(140, 140, 140, 1);
+*/
+
+body{
+  background: rgba(247, 247, 247, 1);
+  margin: 0;
+  padding: 0;
+  width: 1300px;
+}
+
+.titulo{
+  font-size: 110px;
+  padding-top: 40px;
+}
+
+h1{
+  color: rgba(4, 48, 220, 1);
+  font-size: 90px;
+  padding-top: 170px;
+  text-align: center;
+}
+
+h3{
+  color: rgba(140, 140, 140, 1);
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 90px;
+}
+
+p{
+  color: rgba(140, 140, 140, 1);
+  width: 690px;
+  text-align: justify;
+  margin-left: 120px;
+  font-size: 18px;
+}
+
+h2{
+  color: rgba(4, 48, 220, 1);
+  margin-left: 120px;
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+img{
+  text-align: center;
+  width: 900px;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.resalto{
+  color: rgba(4, 48, 220, 1);
+  font-size: 20px;
+  text-align: center;
+  padding: 60px;
+
+}
+
+#menu{
+  font-weight: 700;
+  list-style: none;
+  padding: 0;
+  position: fixed;
+  top: 100px;
+
+}
+
+
+
+#um{
+  width:0;
+  transition: width 0.5s  ease-in;
+}
+
+#um.width-100{
+  width:100%;
+  color: #fff;
+}
+
+#dois{
+  width:0;
+  transition: width 0.5s ease-in;
+}
+
+#dois.width-100{
+  width:100%;
+}
+
+#tres{
+  width:0;
+  transition: width 0.5s ease-in;
+}
+
+#tres.width-100{
+  width:100%;
+}
+
+#quatro{
+  padding-top: 600px;
+  width:0;
+  transition: width 0.5s ease-in;
+}
+
+#quatro.width-100{
+  width:100%;
+}
+
+#menu li{
+  background: rgba(4, 48, 220, 1);
+  font-size: 14px;
+  height: 25px;
+  margin: 20px 10px;
+  padding: 2px;
+  display: block;
+}
+
+
+#menu li:hover{
+  width: 190px;
+  background: rgba(4, 48, 220, 1);
+
+}
+
+a{
+  color: rgba(247, 247, 247, 1);
+  padding-left: 10px;
+  display: list-item;
+  width: 190px;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#linha{
+  background: rgba(4, 48, 220, 1);
+  height:100px;
+  width: 4px;
+  position: fixed;
+  margin-left: 40px;
+  top: 0;
+  z-index: 70;
+}
+
+#linha1{
+  background: rgba(4, 48, 220, 1);
+  height:360px;
+  width: 4px;
+  position: fixed;
+  margin-left: 40px;
+  bottom: 0;
+  z-index: 70;
+}
