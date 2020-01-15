@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+  background-color: #000;
+}
+
+circle{
+  fill:none;
+  stroke:#6C0DCC;
+  stroke-width: 5;
+}
+rect{
+  fill:none;
+  stroke:#09A7DC;
+}
+.st3{
+  fill:none;
+  stroke:#FF9300;
+  stroke-width: 3;
+}
+
+i {
+background-color: #6C0DCC;
+border-radius: 50%;
+padding:20px;
+
+}
+
+
+i:hover {
+color: #FF9300;
+padding: 30px;
+}
+
+.fab{
+background-color: #6C0DCC;
+}
+
+
+.incons{
+  margin-left: 36%;
+  margin-top: 50px;
+}
